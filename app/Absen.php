@@ -10,6 +10,6 @@ use DB;
 
 class Absen extends Model
 {
-
+    protected $fillabel = ['nama','tanggal','status','ket'];
     protected $table = 'absen';
 }

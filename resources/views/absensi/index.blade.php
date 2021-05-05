@@ -162,6 +162,10 @@
                                         Details
                                     </button>
                                 </td>
+                                {{-- <td><button type="button" class="btn btn-info" href="{{action('AbsenController@downloadPDF', $show->data)}}">
+                                    Download PDF
+                                </button>
+                                </td> --}}
 
                             </tr>
                             @endforeach

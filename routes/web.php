@@ -30,6 +30,7 @@ Route::post('nilai/format', 'NilaiController@simpan')->name('nilai-format');
 
 Route::get('absen', 'AbsenController@index');
 Route::post('absen/simpan', 'AbsenController@simpan')->name('absen-simpan');
+Route::get('absen/download', 'AbsenController@downloadPDF')->name('download-pdf');
 
 
 

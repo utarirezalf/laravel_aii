@@ -9,6 +9,7 @@ use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use PDF;
 
 class AbsenController extends Controller
 {
@@ -55,6 +56,12 @@ class AbsenController extends Controller
         } else {
             return redirect('/absen')->with('status','Data gagal disimpan');
         }
+    }
+
+    public function downloadPDF() {
+        // $data = Absen::all();
+        // $pdf = PDF::loadView('pdf', compact('data'));
+        // return $pdf->download('data.pdf');
     }
 
 }
