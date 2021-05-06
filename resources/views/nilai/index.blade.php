@@ -18,7 +18,7 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="{{asset('assets/img/navbar-logo.png')}}" alt="" /></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,12 +44,15 @@
                     </ul>
                 </div>
             </div>
-        </nav>
-        
+        </nav>   
         <!-- Masthead-->
-        <header class="masthead">
-            
-        </header>
+        {{-- <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome To Our Website!</div>
+                <div class="masthead-heading text-uppercase"></div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#daftar">DAFTAR</a>
+            </div>
+        </header> --}}
         <!-- Services-->
         <section class="page-section" id="peserta" action="" method="POST">
             <div class="container">
@@ -92,6 +95,8 @@
                         </div>
                     </form>
                     <br> <br>
+                    <h3>List Mahasiswa yang sudah mengupload Form Nilai</h3>
+                    <br>
                     <table class="table table-bordered">
                         <thead>
                             <tr>

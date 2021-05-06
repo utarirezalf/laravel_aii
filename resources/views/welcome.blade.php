@@ -45,8 +45,9 @@
                                 </li>
                             @else
                                 {{-- <a href="{{ route('login') }}">Login</a> --}}
-                                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('login') }}">Login</a></li>
                                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('home') }}">Home</a></li>
+                                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('register') }}">Register</a></li>
+                                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('login') }}">Login</a></li>
                                 {{-- @if (Route::has('register'))
                                     <a href="{{ route('register') }}">Register</a>
                                 @endif --}}

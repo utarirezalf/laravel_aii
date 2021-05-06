@@ -18,7 +18,7 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="{{asset('assets/img/navbar-logo.png')}}" alt="" /></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,9 +46,9 @@
         </nav>
         
         <!-- Masthead-->
-        <header class="masthead">
+        {{-- <header class="masthead">
             
-        </header>
+        </header> --}}
         <!-- Services-->
         <section class="page-section" id="absensi" action="{{url('absensi')}}" method="POST">
             <div class="container">
